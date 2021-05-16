@@ -4,7 +4,7 @@ CREATE SCHEMA public;
 
 -- Create departments table
 CREATE TABLE departments(
-	dept_no VARCHAR(20) PRIMARY KEY,
+	dept_no VARCHAR(5) PRIMARY KEY,
 	dept_name VARCHAR(20)
 );
 
@@ -47,11 +47,3 @@ CREATE TABLE titles(
 	title_id VARCHAR(20) PRIMARY KEY,
 	title VARCHAR(20)
 );
-
--- Commands to look at the tables for ease when coding
-SELECT * FROM employees;
-SELECT * FROM salaries;
-SELECT * FROM dept_emp;
-SELECT * FROM dept_manager;
-SELECT * FROM titles;
-
